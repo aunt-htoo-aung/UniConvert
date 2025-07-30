@@ -1,0 +1,30 @@
+/* html{
+    overflow: hidden;
+} */
+body{
+    color: #686666;
+}
+
+.nav-link{
+    color:   #4b4d4e !important;;
+}
+.nav-link a:hover{
+    padding-bottom: 3px;
+    border-bottom: 2px solid black;
+}
+
+.benefit-list li a{
+    padding: 5px;
+}
+
+h1{
+    color: #00979d;
+}
+
+.btn{
+   background:  #00c6cf;
+}
+
+.btn:hover{
+    background: #00979d;
+}
