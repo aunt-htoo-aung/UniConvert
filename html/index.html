@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../css/style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-
-<body>
-  <nav>
-    <div class="flex w-full justify-between p-6 shadow">
-      <div class="nav-icon">
-        <img src="" alt="Icon" />
+  <body>
+    <nav>
+      <div class="flex w-full justify-between p-6 shadow">
+        <div class="nav-icon">
+          <img src="" alt="Icon" />
+        </div>
+        <div class="nav-link w-1/2">
+          <ul class="flex justify-around">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="convert.html">Convert</a></li>
+            <li><a href="apis.html">APIs</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="nav-link w-1/2">
-        <ul class="flex justify-around">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="convert.html">Convert</a></li>
-          <li><a href="apis.html">APIs</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
+    </nav>
+    <div
+      class="container-fluid flex flex-col md:flex-row justify-between h-auto"
+    >
+      <div class="left-side md:w-1/2">
+        <div class="p-30">
+          <h1 class="text-6xl font-bold">UniConvert</h1>
+          <span>Your units. Your way. Anytime. Anywhere.</span>
+        </div>
+      </div>
+      <div class="right-side md:w-1/2">
+        <div class="mt-30 pr-0 mr-30">
+          <h1 class="text-2xl">Welcome to UniConvert!</h1>
+          <br />
+          <p class="text-justify">
+            Your all-in-one tool for converting units with ease.
+            <br /><br />Convert between units of length, weight, temperature,
+            volume, time, area, and more — all in one place. Whether you're
+            working on schoolwork, science projects, or everyday tasks,
+            UniConvert gives you fast and accurate results in just a few clicks.
+          </p>
+          <ul class="benefit-list mt-5 mb-15">
+            <li>✅ Easy to use</li>
+            <li>✅ Supports all major unit types</li>
+            <li>✅ Free and always available</li>
+          </ul>
+          <a
+            href="convert.html"
+            class="btn text-white font-bold py-5 px-5 rounded-full"
+            >Start your conversion now!</a
+          >
+        </div>
       </div>
     </div>
-  </nav>
-  <div class="container-fluid flex justify-between h-auto">
-    <div class="left-side md:w-1/2">
-      <div class="p-30">
-        <h1 class="text-6xl font-bold">UniConvert</h1>
-        <span>Your units. Your way. Anytime. Anywhere.</span>
-      </div>
-    </div>
-    <div class="right-side md:w-1/2">
-      <div class="mt-30 pr-0 mr-30">
-        <h1 class="text-2xl">Welcome to UniConvert!</h1>
-        <br />
-        <p class="text-justify">
-          Your all-in-one tool for converting units with ease.
-          <br /><br />Convert between units of length, weight, temperature,
-          volume, time, area, and more — all in one place. Whether you're
-          working on schoolwork, science projects, or everyday tasks,
-          UniConvert gives you fast and accurate results in just a few clicks.
-        </p>
-        <ul class="benefit-list mt-5 mb-15">
-          <li>✅ Easy to use</li>
-          <li>✅ Supports all major unit types</li>
-          <li>✅ Free and always available</li>
-        </ul>
-        <a href="convert.html" class="btn text-white font-bold py-5 px-5 rounded-full">Start your conversion now!</a>
-      </div>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
